@@ -320,14 +320,6 @@ span {
     background-color: var(--bg-color);
 }
 
-.h2 {
-    margin-bottom: 3rem;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .contact form{
     display: flex;
     align-items: center;
@@ -364,7 +356,7 @@ span {
     html {
         font-size: 55%;
     }
-    .services-container {
+    .about-container {
         padding-bottom: 7rem;
         grid-template-columns: repeat(2,1fr);
         margin: 0 5rem;
@@ -378,7 +370,7 @@ span {
     section {
         padding: 10rem 3% 2rem;
     }
-    .services {
+    .about {
         padding-bottom: 7rem;
     }
     .testimonials .wrapper {
@@ -433,10 +425,10 @@ span {
     .home-img img{
         width: 56vw;
     }
-    .services h2 {
+    .about h2 {
         margin-bottom: 3rem;
     }
-    .services-container {
+    .about-container {
         grid-template-columns: repeat(1,1fr);
     }
 }
